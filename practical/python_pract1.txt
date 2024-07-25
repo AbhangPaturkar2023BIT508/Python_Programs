@@ -725,3 +725,175 @@ Enter text : 0[K10
 [?2004lexit
 
 Script done on 2024-07-25 20:25:43+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2024-07-25 21:25:43+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="190" LINES="35"]
+[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ abhang
+[?2004lPython 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> int()1)2).)4)5)
+12
+>>> int(12.45)[C[1P)[1P)[1P)3)')'123')
+123
+>>> int('123')_3')
+123
+>>> int('12_3')[1P)[1P)[1P)[1P)[1P)')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: ''
+>>> int('')[1P)[1P)
+0
+>>> int()')')a')[1P')f')a')c')e')[C,)1)6)
+64206
+>>> a
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'a' is not defined
+>>> a = []1],]2],]3]
+>>> a[Kiss[Kinstance()a),)')[1P)k)i)[1P)[1P)l)i)s)t)
+True
+>>> isinstance(a,list)[1P)[1P)[1P)[1P)t)u)p)e)[1P)l)e)
+False
+>>> issubclass()a)[1P)l)i)s)t),) )t)u)p)l)e)
+False
+>>> issubclass(list, tuple)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)s)e)t),) )f)r)o)z)e)n)s)e)t)
+False
+>>> issubclass(set, frozenset)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)i)n)t) )[1P),) )b)o)l)l)[1P)[1P)o)l)
+False
+>>> issubclass(int, bool)[1P)[1P)[1P)[1P)i)n)t)
+True
+>>> issubclass(int, int)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)()f)r)o)z)e)n)s)t)[1P)e)t),) )s)e)t)
+False
+>>> issubclass(frozenset, set)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)i)n)t),) )f)l)o)a)t)
+False
+>>> issubclass(int, float)[1P)[1P)[1P)[1P)[1P)[1P) )s)e)t)
+False
+>>> locals()
+{'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'a': [1, 2, 3]}
+>>> ;[Klen()")")A")b")h")a")n")g")
+6
+>>> len("Abhang")[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[)])1]),])2]),])2])
+3
+>>> jm[K[Kmazx[K[Kx()')a)'),)')a)a)').)[1P),)')')
+'aa'
+>>> max('a','aa','')[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[)])1]),])5]),])2])
+5
+>>> oct()8)
+'0o10'
+>>> oct(8)[1P)7)
+'0o7'
+>>> oct(7)[1P)-)8)5)
+'-0o125'
+>>> file()P)y)t)h)o)n).)p)y)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+>>> file(Python.py)[C[1P(Python.py)[C[C[C[C[C[C[C[1P(Python.py)[C[C[C[C[C[C[1P(Python.py)[C[C[C[C[C[1P(Python.py)[C[C[C[Co(Python.py)[C[C[C[C[Cp(Python.py)[C[C[C[C[C[Ce(Python.py)[C[C[C[C[C[C[Cn(Python.py)[C[C[C[C[C[C[C[C
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Python' is not defined
+>>> open(Python.py)[C')'Python.py')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'Python.py'
+>>> open('Python.py')_.py')p.py')r.py')a.py')c.py')t.py')1.py')0.py')[1P.py')[C[C[C[1P')[1P')[1P').')t')x')t')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'Python_pract1.txt'
+>>> ord
+<built-in function ord>
+>>> ()[K[Kord[C()a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: ord() expected string of length 1, but list found
+>>> ord(a)')'a')
+97
+>>> pow()1)[1P)2),)5)
+32
+>>> pow(2,5)[1P)a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for ** or pow(): 'int' and 'list'
+>>> pow(2,a)[1P)0)
+1
+>>> 2**2
+4
+>>> rn[Kange()1),)5)[1P)6),)1)[1P)2)
+range(1, 6, 2)
+>>> range(1,6,2)[C[Crange(1,6,2)[C[C[C[C[Cprange(1,6,2)[C[C[C[C[C[C[1Prange(1,6,2)[C[C[C[C[C[1Pange(1,6,2)[C[C[C[Cprange(1,6,2)[C[C[C[C[C[Crange(1,6,2)[C[C[C[C[C[Cirange(1,6,2)[C[C[C[C[C[C[Cnrange(1,6,2)[C[C[C[C[C[C[C[Ctrange(1,6,2)[C[C[C[C[C[C[C[C[C(range(1,6,2)[C[C[C[C[C[C[C[C[C[Cirange(1,6,2) range(1,6,2)irange(1,6,2)nrange(1,6,2) range(1,6,2)[C[C[C[C[C[C[C[C[C[C[C[C)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'i' is not defined. Did you mean: 'id'?
+>>> print(i in range(1,6,2))[C[C[C[C[12Prange(1,6,2)lrange(1,6,2)[C[C[C[C[Cirange(1,6,2)[C[C[C[C[C[Csrange(1,6,2)[C[C[C[C[C[C[Ctrange(1,6,2)[C[C[C[C[C[C[C[C(range(1,6,2)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)
+[1, 3, 5]
+>>> list(range(1,6,2))-2))[1P,-2))0,-2))[C6,0,-2))
+[16, 14, 12, 10, 8, 6, 4, 2]
+>>> list(range(16,0,-2))[1P6,0,-2))
+[6, 4, 2]
+>>> list(range(6,0,-2))16,0,-2))[2P,6,2))[C[1P))0))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: range() arg 3 must not be zero
+>>> reversed()[)])1]),])2]),])3])
+<list_reverseiterator object at 0x711db5063850>
+>>> reversed([1,2,3])[C[C[C[Clist(range(1,6,0))[C[C[C[C[1Preversed([1,2,3])[C[C[C[C[Ka
+[1, 2, 3]
+>>> areversed([1,2,3])[1P)[1P)[1P)[1P)[1P)[1P)[1P)a)areversed(a)[C[C[C[C[C reversed(a)[C[C[C[C[C[C=reversed(a)[C[C[C[C[C[C[C reversed(a)[C[C[C[C[C[C[C[C
+>>> a
+<list_reverseiterator object at 0x711db5063850>
+>>> round()1).)2)3)
+1
+>>> round(1.23),) )1)
+1.2
+>>> a = ""A"b"a"n"[1P"[1P"h"a"n"h"[1P"g"
+>>> a[2:6}[K]
+'hang'
+>>> a[2:6][1P][1P][1P]0]:]6]:]2]
+'Ahn'
+>>> a[0:6:2][1P][1P][1P][1P][1P]6]:]-]1]:]-]1]
+''
+>>> a[6:-1:-1][1P:-1][1P:-1]0:-1]
+'gnahb'
+>>> a[6:0:-1][1P:-1]
+'gnahbA'
+>>> a = [K[K[K
+'Abhang'
+>>> sord[Kted()a)
+['A', 'a', 'b', 'g', 'h', 'n']
+>>> STR\[K[K[K[Kstr()1)
+'1'
+>>> str(1)[1P)T)r)u)e)
+'True'
+>>> sum()[)])a])[1P])'])a])']),])b])'])a])[1P])[1P])[1P])'])b])'])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> sum(['a','b'])[1P'])[C[1P])[1P])[1P])[1P])[1P])[1P])1]),])2]),])3]),])4])
+10
+>>> var[Krs()a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: vars() argument must have __dict__ attribute
+>>> vars(a)[C[C[C[C[Kdir)[K()
+['__annotations__', '__builtins__', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'a']
+>>> a
+'Abhang'
+>>> vars()a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: vars() argument must have __dict__ attribute
+>>> a = []1],]2],]3]
+>>> vars()a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: vars() argument must have __dict__ attribute
+>>> vars(a)[K[K[K[K[K[K[Ka = {}1}:}'}'}a'}
+>>> a
+{1: 'a'}
+>>> vars()a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: vars() argument must have __dict__ attribute
+>>> exit()
+[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ exit
+[?2004lexit
+
+Script done on 2024-07-25 22:44:10+05:30 [COMMAND_EXIT_CODE="0"]
