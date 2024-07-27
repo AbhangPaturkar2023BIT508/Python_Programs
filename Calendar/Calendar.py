@@ -2,6 +2,7 @@ class Calendar:
     def __init__(self) -> None:
         self.week_day_names = ('SUN', 'MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT')
         self.months_name_and_code = ((0, "JAN"),(3, "FEB"),(3, "MAR"),(6, "APR"),(1, "MAY"),(4, "JUN"),(6, "JULY"),(2, "AUG"),(5, "SEP"),(0, "OCT"),(3, "NOV"),(5, "DEC"))
+    # end of __init__
 
     def get_year_special_code(self, year : int) -> int:
         mod_year = year % 400
@@ -13,6 +14,7 @@ class Calendar:
             return 2
         if mod_year < 400 and mod_year >= 300:
             return 0 
+    # end of get_year_special_code 
 
     def get_week_day_name_from_date(self, date:int, month:int, year:int) -> str:
         week_day_names_index = (date + self.months_name_and_code[month - 1][0] + 
@@ -26,10 +28,12 @@ class Calendar:
         week_day_names_index = week_day_names_index % 7
         
         return self.week_day_names[week_day_names_index]
+    # end of get_week_day_name_from_date
+# end of Calendar
         
-
-        # return "Sggs"
 
 #__main__
 cal = Calendar()
-print(cal.get_week_day_name_from_date(1,1,2024))
+print(cal.get_week_day_name_from_date(1,1,1704))
+
+#end of __main__
