@@ -1,0 +1,899 @@
+Script started on 2024-07-21 18:06:26+05:30 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="80" LINES="24"]
+[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ pyhton[K[K[K[Kthon3
+[?2004lPython 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [H[2J>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> [K>>> a = 10
+>>> a
+10
+>>> type()a)
+<class 'int'>
+>>> a = 0b10
+>>> a
+2
+>>> a = a[K0xa
+>>> a
+10
+>>> a = 0O999
+  File "<stdin>", line 1
+    a = 0O999
+          ^
+SyntaxError: invalid digit '9' in octal literal
+>>> a = 0O999[C[K[K[K777
+>>> a
+511
+>>> a = 0O777999[C[C[C[C[C[K = 0xa[KA
+>>> a
+10
+>>>  [Kbin()5)
+'0b101'
+>>> bin(5)[1P(5)[1P(5)[1P(5)o(5)c(5)t(5)
+'0o5'
+>>> hext[K()5)
+'0x5'
+>>> hex(5)[C[C[C[Coct(5)[1P)9)
+'0o11'
+>>> oct(9)[1P)1)5)
+'0o17'
+>>> oct(15)[1P)0)
+'0o12'
+>>> oct(10)[1P)
+'0o1'
+>>> oct(1)[1P)1)1)
+'0o13'
+>>> oct(11)[1P(11)[1P(11)[1P(11)h(11)e(11)x(11)
+'0xb'
+>>> hex(11)[1P)5)
+'0xf'
+>>> hex(15)1)[C[C[C[Coct(11)[1P)0)5)[1P9)[C[C[C[Chex(5)[C[C[C[Coct(5)[C[C[C[Cbin(5)[C[C[C[Ca[Kbin(5)[1P)0)x)1)5)
+'0b10101'
+>>> bin(0x15)[1P)[1P)f)
+'0b1111'
+>>>  oct()0)x)F)a)c)e)
+  File "<stdin>", line 1
+    oct(0xFace)
+IndentationError: unexpected indent
+>>>  oct(0xFace)[1Poct(0xFace)[C[C[C[C
+'0o175316'
+>>>  [Ksl[Kal[K[K[Ka = 123.123
+>>> a = 123.123[K[K[K[K[K[K[K[K 0b101.010
+  File "<stdin>", line 1
+    a = 0b101.010
+             ^^^^
+SyntaxError: invalid syntax
+>>> a = 0b101.010[K[K[K[K[K[K[K[K[K[K[K[K[K[K>>> a = 1.2e5
+>>> a
+120000.0
+>>>  [Ka = 1e2
+>>> a
+100.0
+>>> a = 1e2[K[C = 1e2-2
+>>> a
+0.01
+>>> a = 1e-2[1P2+2
+>>> a
+100.0
+>>> a = 10 + 20.2j
+>>> a
+(10+20.2j)
+>>> a[C = 10 + 20.2j[C[C[C[C[C[K = 10 + 20.2j[1Pj[1Pj
+>>> a
+(10+20j)
+>>> type()a)
+<class 'complex'>
+>>> a
+(10+20j)
+>>> b = 10 + 20 j
+  File "<stdin>", line 1
+    b = 10 + 20 j
+                ^
+SyntaxError: invalid syntax
+>>> a
+(10+20j)
+>>> ab = 10 + 20 j[1Pj
+>>> b
+(10+20j)
+>>> a+b
+(20+40j)
+>>> a+b[2Pb = 10 + 20j[C[K
+>>> v[Kb
+30
+>>> b = 10 + 20[1@j
+>>> n
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'n' is not defined
+>>> b
+(20+10j)
+>>> bnb = 10j + 20[1P[1@i
+  File "<stdin>", line 1
+    b = 10i + 20
+         ^
+SyntaxError: invalid decimal literal
+>>> b = 10i + 20[C[1P[1P[C[1P 20j 20[C 20- 20
+>>> b
+(-20+10j)
+>>> b[C = 10j - 20[Cj
+>>> b
+-10j
+>>> b = 10j - 20j[1P
+>>> b
+(10-20j)
+>>> b
+(10-20j)
+>>> =b
+  File "<stdin>", line 1
+    =b
+    ^
+SyntaxError: invalid syntax
+>>> b
+(10-20j)
+>>> b+10
+(20-20j)
+>>> b
+(10-20j)
+>>>                                   [K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kb.real
+10.0
+>>> a.real
+10.0
+>>> a.[K[Kb.r[Kimage[Kinar
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'complex' object has no attribute 'imaginar'
+>>> b.imaginary
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'complex' object has no attribute 'imaginary'
+>>> b.imaginary[K[K[K[K[K
+-20.0
+>>>  [KTrue+t[KTrue
+2
+>>> Tru[K[K[K2*True
+2
+>>> rn[Kage[K[Knge()T)r)i)e)[1P)[1P)u)e),) )1)1)
+range(1, 11)
+>>> True/false
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'false' is not defined. Did you mean: 'False'?
+>>> True/false[1PalseGalse[1PalseFalse
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ZeroDivisionError: division by zero
+>>>  [K  [K[Ka = ""A"b"a"[1P"h"an"g"
+>>> a[]0]
+'A'
+>>> a[0][1P]5]
+'g'
+>>> a[5]:]
+'g'
+>>> a[5:]0]
+''
+>>> a[5:0][1P:0][C[C[1P][1P]-]1]
+'g'
+>>> a[-1]:]
+'g'
+>>> a[-1:][1P:][1P:][C[C[K[K[K[Ka[-1]:]0]
+''
+>>> a[-1:0][C[C[C[C[Ka[-1][1P][1P][1P][]:]-]1]
+'Abhan'
+>>> a[:-1][1P][1P]
+'Abhang'
+>>> a[:]0]
+''
+>>> a[:0][1P]-][1P]0:][C1][1P]4]:]2]
+'Ah'
+>>> a[0:4:2][1P:2][1P::2]-::2]1::2][C[C0:2][C[C[1P]-]1]
+'gnahb'
+>>> a[-1:0:-1][1P:-1]
+'gnahbA'
+>>> a[-1::-1][1P::-1]
+  File "<stdin>", line 1
+    a[-::-1]
+       ^
+SyntaxError: invalid syntax
+>>> a[-::-1][1P::-1]
+'gnahbA'
+>>> a[::-1][1P][1P][1P][1P]1]0]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+IndexError: string index out of range
+>>> a[Klen()a)
+6
+>>> len(a)[C[C[C[C[1Pa[10]::-1]-::-1][1P][1P][1P][1P][1P]1]:]5]
+'bhan'
+>>> a[1:5][C[C[C[Clen(a)[C[C[C[Ca[1:5][1P:5]0:5]
+'Abhan'
+>>> a[0:5][1P]6]
+'Abhang'
+>>> a[0:6]:]2]
+'Ahn'
+>>> a[0:6:2]:]1]
+  File "<stdin>", line 1
+    a[0:6:2:1]
+           ^
+SyntaxError: invalid syntax
+>>> a[0:6:2:1][1P][1P][1P][1P][1P]
+'Abhang'
+>>> a[0:][1P:][C6]
+'Abhang'
+>>> a[:6][1P]5]
+'Abhan'
+>>> a[:5][1P][1P]-]1]:]
+'g'
+>>> a[-1:]-]1][1P]4]
+''
+>>> a[-1:-4][1P]1][1P:-1]4:-1]
+'han'
+>>> a[-4:-1]:]-]1]
+''
+>>> a[-4:-1:-1][1P:-1]4:-1][3P1]4:-1][C[1P:-4:-1]1:-4:-1]
+'gna'
+>>> a[-1:-4:-1][C[1P][1P][1P][1P][1P]1]0]0][1P1:100]
+'bhang'
+>>> a[1:100]-1:-4:-1]4:-1:-1][K[K[K[K[K[K[K[K[K[K[Ka
+'Abhang'
+>>> b= 0
+>>> d = 5
+>>> a[b:d}[K]
+'Abhan'
+>>> a[b:d][C[C[C[C[1Pd = 5[1Pb= 0a[K[1:100]-1:-4:-1][1P][1P][1P][1P][1P][1P][1P][1P]0][C:]:]-]1]
+'A'
+>>> a[0::-1][1P][1P]1]0]
+'A'
+>>> a[0::10][1P][1P][1P]6]
+'Abhang'
+>>> a[0:6]:]0]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: slice step cannot be zero
+>>> [H[2J>>> a
+'Abhang'
+>>> a[]-]1]:]-]3]
+''
+>>> a[-1:-3][1P]6]
+''
+>>> a[-1:-6][1P6][1P1:6]01:6][C[1P:6][C[C:]-]1]
+''
+>>> a[0:6:-1][1P:-1][1P-1][1P:-1]-1:-6][2P:-1][C[C[C[C[Ka[:-1][C[C[C[C[Ka[:-1]-1:-6]3][C[C[C[C[C[K[0:6:0]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: slice step cannot be zero
+>>> a[0:6:0][1P:0][1P0][1P:0]6:0][C:0]0:0][C[C[1P]-]1]
+'gnahb'
+>>> a[6:0:-1][1P:-1]-:-1]1:-1]
+''
+>>> a[6:-1:-1][1P:-1][1P:-1]0:-1]
+'gnahb'
+>>> a[6:0:-1][1P:-1]
+'gnahbA'
+>>> a[6::-1][1P::-1]
+'gnahbA'
+>>> a[::-1][1P][1P]
+'Abhang'
+>>> a[::][C[K[K[K[K[Ka = intpu[K[K[Kput()")")E")n")t")e")r") ")a") ")n")a")m")e"):")[C ")
+Enter a name: Abhang
+>>> a[Kb = a[[[K::-1}[K]
+>>> b
+'gnahbA'
+>>> a
+'Abhang'
+>>> ab = a[::-1]a::-1].::-1][1P::-1][1P::-1]l::-1]e::-1]n::-1](::-1])::-1]a)::-1]
+>>> b
+'gnahbA'
+>>> a
+'Abhang'
+>>> a*10
+'AbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhang'
+>>> a*10_
+  File "<stdin>", line 1
+    a*10_
+        ^
+SyntaxError: invalid decimal literal
+>>> a*10_[C[C[C[C[K_*10
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'a_' is not defined. Did you mean: 'a'?
+>>> a_*10+_*10
+'AbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhang'
+>>> a+_*10[1P*10_*10[1P*10"*10"*10_"*10
+'Abhang__________'
+>>> a+"_"*100+"_"*10[1P+"_"*10[C[C[C[C[C[C[C[C[C[1P*10[1P*10[1P*10[1P*10[C[C[C
+'AbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhang'
+>>> a*10+""_"
+'AbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhang_'
+>>> _
+'AbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhang_'
+>>> a+_*10
+'AbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhang_AbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhang_AbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhang_AbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhang_AbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhang_AbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhang_AbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhang_AbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhang_AbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhang_AbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhangAbhang_'
+>>> int()5).)5)
+5
+>>> int(5.5)[C[1P(5.5)[1P(5.5)[1P(5.5)b(5.5)o(5.5)l(5.5)l(5.5)[1P(5.5)[1P(5.5)o(5.5)l(5.5)
+True
+>>> bool(5.5)[1P)[1P)[1P)-)5).)2)
+True
+>>> bool(-5.2)[1P)[1P)[1P)[1P)0)
+False
+>>> 1&1
+1
+>>> 1&1[K[K[K0&5
+0
+>>> 0&5[1P&55&5
+5
+>>> 5&5[1P5a5n5d5
+  File "<stdin>", line 1
+    5and5
+    ^
+SyntaxError: invalid decimal literal
+>>> in6[Kt()1)0)+)1)0)j)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: int() argument must be a string, a bytes-like object or a real number, not 'complex'
+>>> int(10+10j)[1P(10+10j)[C[C[C[C[C[C[1P(10+10j)[C[C[C[C[C[1P(10+10j)[C[C[C[Cf(10+10j)[C[C[C[C[Cl(10+10j)[C[C[C[C[C[Co(10+10j)a(10+10j)t(10+10j)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: float() argument must be a string or a real number, not 'complex'
+>>> float(10+10j)[1P(10+10j)[1P(10+10j)[1P(10+10j)[C[C[C[C[C[C[1P(10+10j)[C[C[C[C[C[1P(10+10j)[C[C[C[Cs(10+10j)[C[C[C[C[Ct(10+10j)[C[C[C[C[C[Cr(10+10j)
+'(10+10j)'
+>>> str(10+10j)[1P(10+10j)[C[C[C[C[C[C[1P(10+10j)[C[C[C[C[C[1P(10+10j)[C[C[C[Cb(10+10j)[C[C[C[C[Co(10+10j)[C[C[C[C[C[Co(10+10j)l(10+10j)
+True
+>>> bool(10+10j)[1Pj)[1Pj)[1Pj)[1Pj)[1Pj)0j)+j)0j)
+False
+>>> bool(0+0j)[1Pj)1j)
+True
+>>> bool(0+1j)[C[C[1Pj)[C[1P+j)0+j)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'j' is not defined
+>>> bool(0+j)0j)[1P+0j)1+0j)
+True
+>>> int)[K()")")1")0")
+10
+>>> int("10")a")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '10a'
+>>> dec()")")0")b")1")1")1")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'dec' is not defined
+>>> dec("0b111")[1P)[1P"0b111)("0b111)[C[1P0b111)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'dec' is not defined
+>>> dec(0b111)[1P)[1P)[1P)[1P)[1P)[C[K[K[K[K[Kbin[K[K[Kdec("0b111")[1P)[C[1P0b111)[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K [H[2J>>>  int()[C[1Pint()[C[C[C[C1)0).)2)
+10
+>>> int(10.2)[C[1P)[1P)[1P)[1P)0)b)1)2)1)
+  File "<stdin>", line 1
+    int(0b121)
+           ^
+SyntaxError: invalid digit '2' in binary literal
+>>> int(0b121)[1P1)01)
+5
+>>> int(0b101)[1P101)x101)
+257
+>>> int(0x101)[1P101)b101)
+5
+>>> int(0b101)")[C"0b101")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: '0b101'
+>>> dex[Kc()0)b)1)0)1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'dec' is not defined
+>>> comples[Kx()1)0)
+(10+0j)
+>>> complex(10)j)
+10j
+>>> complex(10j)[K[K[K[K[K[K[K[K[K[K[K[Ka = 10j
+>>> a
+10j
+>>> type()a)
+<class 'complex'>
+>>> 0+10j
+10j
+>>> 0+10jtype(a)[C[C[C[Ca[K = 10j[C[C[C[Ccomplex(10j)[1P)[1P)[1P)1)0).)[1P)
+(10+0j)
+>>> complex(10).)2)3)
+(10.23+0j)
+>>> complex(10.23)[1P)[1P)[1P)[1P)[1P)0)b)1)1)1)
+(7+0j)
+>>> complex(0b111)[C")"0b111")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: complex() arg is a malformed string
+>>> complex("0b111")[1P)[1P111)x111)[1P0x111)
+(273+0j)
+>>> complex(0x111),) )1)0)
+(273+10j)
+>>> complex(0x111, 10),) )5)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: complex() takes at most 2 arguments (3 given)
+>>> complex(0x111, 10, 5)[1P)[1P)[1P)[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kint()")")1")0")
+10
+>>> int("10")[1P("10")[1P("10")[1P("10")[C[C[C[Cb("10")i("10")n("10")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'str' object cannot be interpreted as an integer
+>>> bin("10")[1P)[C[K[K[K[K[K[K[K[Kint("10")[C[C[C[Ccomplex(0x111, 10, 5))[K")"10")
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: complex() second arg can't be a string
+>>> complex(0x111, "10")[1P[1P[1P[1P[1P[1@1[1@2
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: complex() second arg can't be a string
+>>> complex(12, "10")[1P)[1P10)[1@"[1@"
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: complex() can't take second arg if first is a string
+>>> complex("12", 10)")[Cj")"10j")[C[1P"10j")[1P"10j")[1P10j")[1P"10j")[1P"10j")[1P10j")
+10j
+>>> bool
+<class 'bool'>
+>>> bool()")") ") ")
+True
+>>> bool("  ")[1P")[1P")
+False
+>>> eixt[K[K[Kxit()
+[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ eixt[K[K[Kxit
+[?2004lexit
+
+Script done on 2024-07-21 22:21:25+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2024-07-25 18:49:10+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ python3
+[?2004lPython 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exit()
+[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ eixt[K[K[Kxit
+[?2004lexit
+
+Script done on 2024-07-25 18:49:25+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2024-07-25 18:50:04+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
+[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ python3
+[?2004lPython 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> exot[K[Kit()
+[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ abhang
+[?2004lPython 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> [K>>> exit()
+[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ d[Kexit
+[?2004lexit
+
+Script done on 2024-07-25 19:16:19+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2024-07-25 19:20:30+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="190" LINES="35"]
+[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ py[K[Kabhabg[K[Kng
+[?2004lPython 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> abs [K()5)
+5
+>>> abs(5)-5)
+5
+>>> abs(-5).)2)5)
+5.25
+>>> abs(-5.25)+)1)0)j)
+11.294356998076518
+>>> abs(-5.25+10j)[1P+10j)[1P+10j)[1P+10j)[1P+10j)1+10j)0+10j)
+14.142135623730951
+>>> all()[)])0]),])1]),])2])
+False
+>>> all([0,1,2])[1P,1,2])5,1,2])
+True
+>>> all([5,1,2])[1P])[1P])[1P])[1P])[1P])"])"]),]) ])"])"])a"])[C,])"])"])b"])
+False
+>>> all(["", "a","b"])[1@d
+True
+>>> all(["d", "a","b"])[C[C[C[C[C[C[C[C[C[C[1P[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[6P5,1,2])-5,1,2])
+True
+>>> all([-5,1,2])[1P,1,2])0,1,2])
+False
+>>> all([-0,1,2])[C[C+,1,2])[1P,1,2])*,1,2])[1P,1,2])[1P,1,2])[1P,1,2])-5,1,2])[2P,1,2])[C[C[C[C[Kall([,1,2])[1P])[1P])[1P])[1P])
+True
+>>> all([])
+True
+>>> all([])[1P([])[1P([])n([])y([])
+False
+>>> any([])1]),])2]),])3])
+True
+>>> any([1,2,3])[C[1P])0])[1P,0])0,0])
+True
+>>> any([1,0,0])[1P,0,0])0,0,0])
+False
+>>> ascii()")")a")b")ah")g")[1P")[1P")[1P")h")a")n")g")
+"'abhang'"
+>>> ascii("abhang")\")n")p")a")t")u")k")[1P")r")a")r")[1P")[1P")k")a")r")
+"'abhang\\npaturkar'"
+>>> ascii("abhang\npaturkar")1")2")
+"'abhang\\npaturkar12'"
+>>> ascii("abhang\npaturkar12")[C[C[C[C[Kbint[K()1)0)
+'0b1010'
+>>> bin(10)-10)
+'-0b1010'
+>>> bin(-10)[1P0)
+'0b0'
+>>> bin(-0).)2)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'float' object cannot be interpreted as an integer
+>>> bool()5)>)3)
+True
+>>> bool(5>3)[1P)[1P)[1P)0)
+False
+>>> bool(0)[1P)1)
+True
+>>> bool(1)-1)
+True
+>>> bool(-1).)2)
+True
+>>> bool(-1.2)[1P1.2)
+True
+>>> bool()")")
+False
+>>> bool("") ")
+True
+>>> byteare[Krar[Ky()[)])1]),])2]),])3])
+bytearray(b'\x01\x02\x03')
+>>> bytearray([1,2,3])[C[1P([1,2,3])[1P([1,2,3])[1P([1,2,3])[1P([1,2,3])[1P([1,2,3])s([1,2,3])
+b'\x01\x02\x03'
+>>> chr()*)9)[1P)[1P)9)7)
+'a'
+>>> chr(97)-97)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: chr() arg not in range(0x110000)
+>>> chr(-97)[1P)[1P)[1P)1)0)1)
+'e'
+>>> chr(101)[1P)[1P)[1P)0)
+'\x00'
+>>> chr(0)[C[1P)[1P)()6)5)
+'A'
+>>> coml[Kples[Kx()')')+')0')[1P')1').')2')3')
+(1.23+0j)
+>>> complex('+1.23')[C[1P')[1P')[1P')[1P')[1P')-')4').')5')j')
+-4.5j
+>>> complex('-4.5j')[1P')[C[1P)[1P)[1P)[1P)[1P)[1P)1).)2)3)
+(1.23+0j)
+>>> complex(1.23)[1P)[1P)[1P)[1P)6)j)
+6j
+>>> complex(6j)[1P)[1P)r)e)a);)[1P)l) )=) )5)
+(5+0j)
+>>> complex(real = 5)[1P[1P[1P[1P[1@i[1@m[1@a[1@g
+5j
+>>> a = []1],]2],]3]4][1P]
+>>> a [K[Kds[Kict()a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: cannot convert dictionary update sequence element #0 to a sequence
+>>> dict()o)n)e)w)[1P)=) )1)
+{'one': 1}
+>>> dict(one= 1)[1P)[1P)[1P)[1P)[1P)[1P){)[1P)[)])(]))])o)])n)])e)]):)])1)])
+  File "<stdin>", line 1
+    dict([(one:1)])
+              ^
+SyntaxError: invalid syntax
+>>> dict([(one:1)])':1)])'one':1)])
+  File "<stdin>", line 1
+    dict([('one':1)])
+                ^
+SyntaxError: invalid syntax
+>>> dict([('one':1)])[C[1P1)])[1P1)])[1P1)])[1P1)])[1P1)])[1P1)])i1)])n1)])e1)])[1P1)])[1P1)])o1)])[1P1)])[1P1)])o1)])n1)])w1)]),1)]) 1)])[1P1)])[1P1)])[1P1)])e1)])m1)]) 1)])[1P1)])[1P1)]),1)]) 1)])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'one' is not defined. Did you mean: 'None'?
+>>> dict([(one, 1)])[1@;[C[C[1P[1@'[C[C[C[1@'
+{'one': 1}
+>>> dir()
+['__annotations__', '__builtins__', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'a']
+>>> dir()a)
+['__add__', '__class__', '__class_getitem__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
+>>> a
+[1, 2, 3]
+>>> divmod(_[K10,4)
+(2, 2)
+>>> divmod(10,4)tdivmod(10,4)[C[C[C[C[Cydivmod(10,4)[C[C[C[C[C[Cpdivmod(10,4)[C[C[C[C[C[C[Cedivmod(10,4)[C[C[C[C[C[C[C[C(divmod(10,4)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)
+<class 'tuple'>
+>>> FIL[K[K[Kfiltr[Ker()()[C)i))[C[C[K[K[K[K[K[K[K[K[K[K[Kdef fun[K[K[KevenPrint()n)u)m)[C:
+...     if num % 2)[1@([C[C[C[C[C[C[C[C = 0 :
+  File "<stdin>", line 2
+    if (num % 2) = 0 :
+        ^^^^^^^
+SyntaxError: cannot assign to expression here. Maybe you meant '==' instead of '='?
+>>>     if (num % 2) = 0 :[1@=[C[C[C[C[4Pdef evenPrint(num):[C[C[C[C[1Ptype(divmod(10,4))[C[C[C[Cdef evenPrint(num):
+...     def evenPrint(num):[C[C[C[C    if (num % 2) == 0 :
+...             returnn[K num
+... \[K1[Kq
+  File "<stdin>", line 4
+    q
+    ^
+SyntaxError: invalid syntax
+>>> filet[K[K[Klter()[C[K[K[K[K[K[K[K[Ka
+[1, 2, 3]
+>>> hash()[Ca)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unhashable type: 'list'
+>>> hash(a)[C[C[C[Ca[K = ty[Kuper[K[Kle()a)
+>>> a
+(1, 2, 3)
+>>> a = tuple(a)[C[C[C[C[5Phash(a)
+529344067295497451
+>>> help()
+
+Welcome to Python 3.10's help utility!
+
+If this is your first time using Python, you should definitely check out
+the tutorial on the internet at https://docs.python.org/3.10/tutorial/.
+
+Enter the name of any module, keyword, or topic to get help on writing
+Python programs and using Python modules.  To quit this help utility and
+return to the interpreter, just type "quit".
+
+To get a list of available modules, keywords, symbols, or topics, type
+"modules", "keywords", "symbols", or "topics".  Each module also comes
+with a one-line summary of what it does; to list the modules whose name
+or summary contain a given string such as "spam", type "modules spam".
+
+help> help()i)n)t)
+No Python documentation found for 'help(int)'.
+Use help() to get the interactive help utility.
+Use help(str) for help on the str class.
+
+help> help(int)[1P)[1P)[1P)s)t)r)
+No Python documentation found for 'help(str)'.
+Use help() to get the interactive help utility.
+Use help(str) for help on the str class.
+
+help> help(str)[1P)[1P)[1P)h)e)x)
+No Python documentation found for 'help(hex)'.
+Use help() to get the interactive help utility.
+Use help(str) for help on the str class.
+
+help> q
+
+You are now leaving help and returning to the Python interpreter.
+If you want to ask for help on a particular object directly from the
+interpreter, you can type "help(object)".  Executing "help('string')"
+has the same effect as typing a particular string at the help> prompt.
+>>> helo[Kp()h)e)x)
+[?1049h[22;0;0t[?1h=Help on built-in function hex in module builtins:
+
+[1mhex[0m(number, /)
+    Return the hexadecimal representation of an integer.
+    
+    >>> hex(12648430)
+    '0xc0ffee'
+[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
+>>> help(hex)[1P)[1P)[1P)i)n)t)
+[?1049h[22;0;0t[?1h=Help on class int in module builtins:
+
+class [1mint[0m(object)
+ |  int([x]) -> integer
+ |  int(x, base=10) -> integer
+ |  
+ |  Convert a number or string to an integer, or return 0 if no arguments
+ |  are given.  If x is a number, return x.__int__().  For floating point
+ |  numbers, this truncates towards zero.
+ |  
+ |  If x is not a number or if base is given, then x must be a string,
+ |  bytes, or bytearray instance representing an integer literal in the
+ |  given base.  The literal can be preceded by '+' or '-' and be surrounded
+ |  by whitespace.  The base defaults to 10.  Valid bases are 0 and 2-36.
+ |  Base 0 means to interpret the base from the string as an integer literal.
+ |  >>> int('0b100', base=0)
+ |  4
+ |  
+ |  Built-in subclasses:
+ |      bool
+ |  
+ |  Methods defined here:
+ |  
+ |  [1m__abs__[0m(self, /)
+ |      abs(self)
+ |  
+ |  [1m__add__[0m(self, value, /)
+ |      Return self+value.
+ |  
+ |  [1m__and__[0m(self, value, /)
+ |      Return self&value.
+ |  
+ |  [1m__bool__[0m(self, /)
+ |      True if self else False
+:[K[K [KESCESC[KOO[KAA[K[K:[K[K[?1l>[?1049l[23;0;0t
+>>> 
+>>> help(id)
+[?1049h[22;0;0t[?1h=Help on built-in function id in module builtins:
+
+[1mid[0m(obj, /)
+    Return the identity of an object.
+    
+    This is guaranteed to be unique among simultaneously existing objects.
+    (CPython uses the object's memory address.)
+[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
+>>> hex()2)5)5)
+'0xff'
+>>> hex()-)4)2)
+'-0x2a'
+>>> id(a)
+135393451111232
+>>> inu[Ku[Kpute[K()")")E")n")e")r") ")[1P")[1P")[1P")[1P")n")t")e")r") ")t")e")x")t") "):") ")
+Enter text : 0[K10
+'10'
+>>> exit()
+[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ exit
+[?2004lexit
+
+Script done on 2024-07-25 20:25:43+05:30 [COMMAND_EXIT_CODE="0"]
+Script started on 2024-07-25 21:25:43+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="190" LINES="35"]
+[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ abhang
+[?2004lPython 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0] on linux
+Type "help", "copyright", "credits" or "license" for more information.
+>>> int()1)2).)4)5)
+12
+>>> int(12.45)[C[1P)[1P)[1P)3)')'123')
+123
+>>> int('123')_3')
+123
+>>> int('12_3')[1P)[1P)[1P)[1P)[1P)')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: invalid literal for int() with base 10: ''
+>>> int('')[1P)[1P)
+0
+>>> int()')')a')[1P')f')a')c')e')[C,)1)6)
+64206
+>>> a
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'a' is not defined
+>>> a = []1],]2],]3]
+>>> a[Kiss[Kinstance()a),)')[1P)k)i)[1P)[1P)l)i)s)t)
+True
+>>> isinstance(a,list)[1P)[1P)[1P)[1P)t)u)p)e)[1P)l)e)
+False
+>>> issubclass()a)[1P)l)i)s)t),) )t)u)p)l)e)
+False
+>>> issubclass(list, tuple)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)s)e)t),) )f)r)o)z)e)n)s)e)t)
+False
+>>> issubclass(set, frozenset)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)i)n)t) )[1P),) )b)o)l)l)[1P)[1P)o)l)
+False
+>>> issubclass(int, bool)[1P)[1P)[1P)[1P)i)n)t)
+True
+>>> issubclass(int, int)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)()f)r)o)z)e)n)s)t)[1P)e)t),) )s)e)t)
+False
+>>> issubclass(frozenset, set)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)i)n)t),) )f)l)o)a)t)
+False
+>>> issubclass(int, float)[1P)[1P)[1P)[1P)[1P)[1P) )s)e)t)
+False
+>>> locals()
+{'__name__': '__main__', '__doc__': None, '__package__': None, '__loader__': <class '_frozen_importlib.BuiltinImporter'>, '__spec__': None, '__annotations__': {}, '__builtins__': <module 'builtins' (built-in)>, 'a': [1, 2, 3]}
+>>> ;[Klen()")")A")b")h")a")n")g")
+6
+>>> len("Abhang")[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[)])1]),])2]),])2])
+3
+>>> jm[K[Kmazx[K[Kx()')a)'),)')a)a)').)[1P),)')')
+'aa'
+>>> max('a','aa','')[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[)])1]),])5]),])2])
+5
+>>> oct()8)
+'0o10'
+>>> oct(8)[1P)7)
+'0o7'
+>>> oct(7)[1P)-)8)5)
+'-0o125'
+>>> file()P)y)t)h)o)n).)p)y)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'file' is not defined. Did you mean: 'filter'?
+>>> file(Python.py)[C[1P(Python.py)[C[C[C[C[C[C[C[1P(Python.py)[C[C[C[C[C[C[1P(Python.py)[C[C[C[C[C[1P(Python.py)[C[C[C[Co(Python.py)[C[C[C[C[Cp(Python.py)[C[C[C[C[C[Ce(Python.py)[C[C[C[C[C[C[Cn(Python.py)[C[C[C[C[C[C[C[C
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'Python' is not defined
+>>> open(Python.py)[C')'Python.py')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'Python.py'
+>>> open('Python.py')_.py')p.py')r.py')a.py')c.py')t.py')1.py')0.py')[1P.py')[C[C[C[1P')[1P')[1P').')t')x')t')
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+FileNotFoundError: [Errno 2] No such file or directory: 'Python_pract1.txt'
+>>> ord
+<built-in function ord>
+>>> ()[K[Kord[C()a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: ord() expected string of length 1, but list found
+>>> ord(a)')'a')
+97
+>>> pow()1)[1P)2),)5)
+32
+>>> pow(2,5)[1P)a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for ** or pow(): 'int' and 'list'
+>>> pow(2,a)[1P)0)
+1
+>>> 2**2
+4
+>>> rn[Kange()1),)5)[1P)6),)1)[1P)2)
+range(1, 6, 2)
+>>> range(1,6,2)[C[Crange(1,6,2)[C[C[C[C[Cprange(1,6,2)[C[C[C[C[C[C[1Prange(1,6,2)[C[C[C[C[C[1Pange(1,6,2)[C[C[C[Cprange(1,6,2)[C[C[C[C[C[Crange(1,6,2)[C[C[C[C[C[Cirange(1,6,2)[C[C[C[C[C[C[Cnrange(1,6,2)[C[C[C[C[C[C[C[Ctrange(1,6,2)[C[C[C[C[C[C[C[C[C(range(1,6,2)[C[C[C[C[C[C[C[C[C[Cirange(1,6,2) range(1,6,2)irange(1,6,2)nrange(1,6,2) range(1,6,2)[C[C[C[C[C[C[C[C[C[C[C[C)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'i' is not defined. Did you mean: 'id'?
+>>> print(i in range(1,6,2))[C[C[C[C[12Prange(1,6,2)lrange(1,6,2)[C[C[C[C[Cirange(1,6,2)[C[C[C[C[C[Csrange(1,6,2)[C[C[C[C[C[C[Ctrange(1,6,2)[C[C[C[C[C[C[C[C(range(1,6,2)[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C)
+[1, 3, 5]
+>>> list(range(1,6,2))-2))[1P,-2))0,-2))[C6,0,-2))
+[16, 14, 12, 10, 8, 6, 4, 2]
+>>> list(range(16,0,-2))[1P6,0,-2))
+[6, 4, 2]
+>>> list(range(6,0,-2))16,0,-2))[2P,6,2))[C[1P))0))
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+ValueError: range() arg 3 must not be zero
+>>> reversed()[)])1]),])2]),])3])
+<list_reverseiterator object at 0x711db5063850>
+>>> reversed([1,2,3])[C[C[C[Clist(range(1,6,0))[C[C[C[C[1Preversed([1,2,3])[C[C[C[C[Ka
+[1, 2, 3]
+>>> areversed([1,2,3])[1P)[1P)[1P)[1P)[1P)[1P)[1P)a)areversed(a)[C[C[C[C[C reversed(a)[C[C[C[C[C[C=reversed(a)[C[C[C[C[C[C[C reversed(a)[C[C[C[C[C[C[C[C
+>>> a
+<list_reverseiterator object at 0x711db5063850>
+>>> round()1).)2)3)
+1
+>>> round(1.23),) )1)
+1.2
+>>> a = ""A"b"a"n"[1P"[1P"h"a"n"h"[1P"g"
+>>> a[2:6}[K]
+'hang'
+>>> a[2:6][1P][1P][1P]0]:]6]:]2]
+'Ahn'
+>>> a[0:6:2][1P][1P][1P][1P][1P]6]:]-]1]:]-]1]
+''
+>>> a[6:-1:-1][1P:-1][1P:-1]0:-1]
+'gnahb'
+>>> a[6:0:-1][1P:-1]
+'gnahbA'
+>>> a = [K[K[K
+'Abhang'
+>>> sord[Kted()a)
+['A', 'a', 'b', 'g', 'h', 'n']
+>>> STR\[K[K[K[Kstr()1)
+'1'
+>>> str(1)[1P)T)r)u)e)
+'True'
+>>> sum()[)])a])[1P])'])a])']),])b])'])a])[1P])[1P])[1P])'])b])'])
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+>>> sum(['a','b'])[1P'])[C[1P])[1P])[1P])[1P])[1P])[1P])1]),])2]),])3]),])4])
+10
+>>> var[Krs()a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: vars() argument must have __dict__ attribute
+>>> vars(a)[C[C[C[C[Kdir)[K()
+['__annotations__', '__builtins__', '__doc__', '__loader__', '__name__', '__package__', '__spec__', 'a']
+>>> a
+'Abhang'
+>>> vars()a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: vars() argument must have __dict__ attribute
+>>> a = []1],]2],]3]
+>>> vars()a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: vars() argument must have __dict__ attribute
+>>> vars(a)[K[K[K[K[K[K[Ka = {}1}:}'}'}a'}
+>>> a
+{1: 'a'}
+>>> vars()a)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: vars() argument must have __dict__ attribute
+>>> exit()
+[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ exit
+[?2004lexit
+
+Script done on 2024-07-25 22:44:10+05:30 [COMMAND_EXIT_CODE="0"]
