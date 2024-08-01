@@ -1,933 +1,0 @@
-Script started on 2024-07-29 00:57:12+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="80" LINES="24"]
-[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ avhang[K[K[K[K[K[Kpython3
-[?2004lPython 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> help[K[K[K[Kdir()s)t)r)
-['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
->>> [K>>> [K>>> [K>>> help()c)a)a)[1P)p)a)t)i)l)i)z)e)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'capatilize' is not defined
->>> help(capatilize)[1Ptilize)itilize)[C[C[1Plize)alize)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'capitalize' is not defined
->>> help(capitalize)[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ks = ""S"g"g"s"I"e"&"t"," "N"a"n"d"e"d"[1P[1@i[C[C[C[C[C[C[C[C[C[C[C[C
->>> s = "Sggsie&t, Nanded"[C[C[C[C[6Phelp(capitalize)scapitalize).capitalize)
-[?1049h[22;0;0t[?1h=Help on built-in function capitalize:
-
-[1mcapitalize[0m() method of builtins.str instance
-    Return a capitalized version of the string.
-    
-    More specifically, make the first character have upper case and the rest lower
-    case.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a = ""s"g"g"s"
->>> s[Ka.capati[K[K[Kitalize()
-'Sggs'
->>> a.capitalize()[C[C[C[C[C[4P = "sggs"[C[C[C[Chelp(s.capitalize)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)c)a)s)e)f)l).)[1P)[1P)o)l)d)
-[?1049h[22;0;0t[?1h=Help on built-in function casefold:
-
-[1mcasefold[0m() method of builtins.str instance
-    Return a version of the string suitable for caseless comparisons.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> s.casefole[Kd)[K()
-'sggsie&t, nanded'
->>> s.casefold()[C[C[C[Chelp(s.casefold)[C[C[C[C[2Pa.capitalize()[C[C[C[Chelp(s.casefold)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P).)c)e)n)t)e)r)
-[?1049h[22;0;0t[?1h=Help on built-in function center:
-
-[1mcenter[0m(width, fillchar=' ', /) method of builtins.str instance
-    Return a centered string of length width.
-    
-    Padding is done using the specified fill character (default is a space).
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> s
-'Sggsie&t, Nanded'
->>> a[Ka.center()1)0),)')')*')
-'***sggs***'
->>> a.center(10,'*')[C[C[C[Cs[Khelp(s.center)[1P)[1P)[1P)[1P)[1P)o)u)n)t)
-[?1049h[22;0;0t[?1h=Help on built-in function count:
-
-[1mcount[0m(...) method of builtins.str instance
-    S.count(sub[, start[, end]]) -> int
-    
-    Return the number of non-overlapping occurrences of substring sub in
-    string S[start:end].  Optional arguments start and end are
-    interpreted as in slice notation.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> s
-'Sggsie&t, Nanded'
->>> s.count()')')g')g')[C
-1
->>> s.count('gg')[C[C[C[C[C[Khelp(s.count)[1P)[1P)[1P)[1P)[1P)e)n)c)o)d)e)
-[?1049h[22;0;0t[?1h=Help on built-in function encode:
-
-[1mencode[0m(encoding='utf-8', errors='strict') method of builtins.str instance
-    Encode the string using the codec registered for encoding.
-    
-    encoding
-      The encoding in which to encode the string.
-    errors
-      The error handling scheme to use for encoding errors.
-      The default is 'strict' meaning that encoding errors raise a
-      UnicodeEncodeError.  Other possible values are 'ignore', 'replace' and
-      'xmlcharrefreplace' as well as any other name registered with
-      codecs.register_error that can handle UnicodeEncodeErrors.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(s.encode)[1P)[1P)[1P)[1P)[1P)n)d)s)w)i)t)h)
-[?1049h[22;0;0t[?1h=Help on built-in function endswith:
-
-[1mendswith[0m(...) method of builtins.str instance
-    S.endswith(suffix[, start[, end]]) -> bool
-    
-    Return True if S ends with the specified suffix, False otherwise.
-    With optional start, test S beginning at that position.
-    With optional end, stop comparing S at that position.
-    suffix can also be a tuple of strings to try.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> s
-'Sggsie&t, Nanded'
->>> s.endswith()')')')[1P)d')e')d')
-True
->>> s.endswith('ded')[C[C[C[C[C[Khelp(s.endswith)[1P)[1P)[1P)[1P)[1P)[1P)[1P)x)p)a)n)d)r)[1P)t)a)b)s)
-[?1049h[22;0;0t[?1h=Help on built-in function expandtabs:
-
-[1mexpandtabs[0m(tabsize=8) method of builtins.str instance
-    Return a copy where all tab characters are expanded using spaces.
-    
-    If tabsize is not given, a tab size of 8 characters is assumed.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a
-'sggs'
->>> a = "[K''       's'g'g's'
->>> a
-'\tsggs'
->>> a.tabsize[K[K[K[K[K[K[Kexpandtbas[K[K[Kabs()2)
-'  sggs'
->>> a.expandtabs(2)[C[C[C[C[C[K = '       sggs'[C[C[C[C[C[Khelp(s.expandtabs)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)f)i)n)d)
-[?1049h[22;0;0t[?1h=Help on built-in function find:
-
-[1mfind[0m(...) method of builtins.str instance
-    S.find(sub[, start[, end]]) -> int
-    
-    Return the lowest index in S where substring sub is found,
-    such that sub is contained within S[start:end].  Optional
-    arguments start and end are interpreted as in slice notation.
-    
-    Return -1 on failure.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a.[K[Ks.find()')i)r)e)[1P)[1P)e)')
-4
->>> s.find('ie')[C[C[C[Chelp(s.find)[1P)[1P)[1P)o)r)m)a)t)
-[?1049h[22;0;0t[?1h=Help on built-in function format:
-
-[1mformat[0m(...) method of builtins.str instance
-    S.format(*args, **kwargs) -> str
-    
-    Return a formatted version of S, using substitutions from args and kwargs.
-    The substitutions are identified by braces ('{' and '}').
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(s.format)[1P)[1P)[1P)[1P)[1P)[1P)i)n)d)e)x)
-[?1049h[22;0;0t[?1h=Help on built-in function index:
-
-[1mindex[0m(...) method of builtins.str instance
-    S.index(sub[, start[, end]]) -> int
-    
-    Return the lowest index in S where substring sub is found,
-    such that sub is contained within S[start:end].  Optional
-    arguments start and end are interpreted as in slice notation.
-    
-    Raises ValueError when the substring is not found.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(s.index)format)[C[C[C[C[2Ps.find('ie')[1P('ie')[1P('ie')[1P('ie')[1P('ie')i('ie')n('ie')d('ie')e('ie')s('ie')[1P('ie')x('ie')
-4
->>> s.index('ie'),)0),)4)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ValueError: substring not found
->>> s.index('ie',0,4))[K[C[C[C[Chelp(s.index)[1P)[1P)[1P)[1P)[1P)[1P).)i)s)a)l)p)n)u)m)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-AttributeError: 'str' object has no attribute 'isalpnum'. Did you mean: 'isalnum'?
->>> help(s.isalpnum)[1Pnum)
-[?1049h[22;0;0t[?1h=Help on built-in function isalnum:
-
-[1misalnum[0m() method of builtins.str instance
-    Return True if the string is an alpha-numeric string, False otherwise.
-    
-    A string is alpha-numeric if all characters in the string are alpha-numeric and
-    there is at least one character in the string.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a.isalnum()
-False
->>> a.isalnum()[C[C[C[Chelp(s.isalnum)pnum)[C[C[C[Cs.index('ie',0,4))[K[C[C[C[Chelp(s.index)format)[C[C[C[C[2Ps.find('ie')[C[C[C[Chelp(s.find)[C[C[C[Ca.expandtabs(2)[C[C[C[C[C[K = '       sggs'[C[C[C[C[C[Khelp(s.expandtabs)[C[C[C[C[1Ps.endswith('ded')[C[C[C[C[C[Khelp(s.endswith)[2Pcode)[C[C[C[C[1Ps.count('gg')[C[C[C[C[C[Khelp(s.count)[C[C[C[Ca.center(10,'*')[C[C[C[Cs[Khelp(s.center)[C[C[C[C[2Ps.casefold()[C[C[C[Chelp(s.casefold)[C[C[C[C[2Pa.capitalize()[C[C[C[C[C[4P = "sggs"[C[C[C[Chelp(s.capitalize)[C[C[C[Cs = "Sggsie&t, Nanded"1"
->>> s.isalm[Knum()
-False
->>> b = ""1"2"4"a"
->>> b.isalnum
-<built-in method isalnum of str object at 0x7f1ec8693d30>
->>> b.isalnum()
-True
->>> b.isalnum()[K[C[C[C[C[C = "124a"[1Pa"[1Pa"[1Pa"[C1"2"3"
->>> b = "a123"[C[C[C[C[C.isalnum()
-True
->>> s
-'Sggsie&t, Nanded1'
->>> sb.isalnum()[C[C[C[C[C[1P = "a123"[C[C[C[C[C.isalnum()[1P.isalnum()[C[C[C[Cs.isalnum()[C[C[C[C[C
-False
->>> s.isalnum()[C[C[C[C[C[Kb.isalnum()[C[C[C[C[C[1P = "a123"[C[C[C[C[C.isalnum()[C[C[C[C[C[1P = "a123"[C[C[C[C[C.isalnum()[C[C[C[Cs[Kb.isalnum()[C[C[C[C[C[1P = "a123"[C[C[C[C[C.isalnum()[K[C[C[C[C[C = "124a"[C[C[C[C[C[1P.isalnum()[C[C[C[C[C[1P = "a123"[Ca123"[Ca123" a123", a123"
->>> tyoe[K[Koe[K[Kpe()b)
-<class 'str'>
->>> b.isalnum()
-False
->>> b.isalnum()[C[C[C[C[4Ptype(b)[C[C[C[Cb = "aa, a123"[1P a123"
->>> b = "aa a123"[C[C[C[C[C[2P.isalnum()
-False
->>> b.isalnum()[C[C[C[C[C = "aa a123"[1Pa123"
->>> b = "aaa123"[C[C[C[C[C[1P.isalnum()
-True
->>> b.isalnum()[C[C[C[C[C = "aaa123"1a123" a123"
->>> b = "aa1 a123"[C[C[C[C[C[3P.isalnum()
-False
->>> b.isalnum()[C[C[C[C[C = "aa1 a123"[C[1Pa123"_a123"
->>> b = "aa1_a123"[C[C[C[C[C[3P.isalnum()
-False
->>> b.isalnum()[C[C[C[C[C = "aa1_a123"[1Pa123"
->>> b = "aa1a123"[C[C[C[C[C[2P.isalnum()
-True
->>> s
-'Sggsie&t, Nanded1'
->>> sb.isalnum()[1P()[1P()[1P()p()h()a()
-False
->>> b
-'aa1a123'
->>> b[Kb.isalpha()[C[1P.isalpha()[C[C[C[Cs.isalpha()[C[C[C[C[C
-False
->>> s
-'Sggsie&t, Nanded1'
->>> s[Ka
-'\tsggs'
->>> as.isalpha()[1P.isalpha()[C[C[C[Ca.isalpha()[C[C[C[C[C
-False
->>> a = ""s"h"[1P"g"g"s"
->>> a = "sggs"[C[C[C[C[C.isalpha()
-True
->>> a.isalpha()[K[K[C)ja.isalpha)[C[C[C[C[Cea.isalpha)[C[C[C[C[C[C[1Pa.isalpha)[C[C[C[C[C[1Pa.isalpha)[C[C[C[Cja.isalpha)[C[C[C[C[C[1Pa.isalpha)[C[C[C[Cha.isalpha)[C[C[C[C[Cea.isalpha)[C[C[C[C[C[Cla.isalpha)[C[C[C[C[C[C[Cpa.isalpha)[C[C[C[C[C[C[C[C(a.isalpha)
-[?1049h[22;0;0t[?1h=Help on built-in function isalpha:
-
-[1misalpha[0m() method of builtins.str instance
-    Return True if the string is an alphabetic string, False otherwise.
-    
-    A string is alphabetic if all characters in the string are alphabetic and there
-    is at least one character in the string.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(a.isalpha)[1P)[1P)[1P)[1P)[1P)a)s)c)i)i)
-[?1049h[22;0;0t[?1h=Help on built-in function isascii:
-
-[1misascii[0m() method of builtins.str instance
-    Return True if all characters in the string are ASCII, False otherwise.
-    
-    ASCII characters have code points in the range U+0000-U+007F.
-    Empty string is ASCII too.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(a.isascii)lpha)[C[C[C[C[4Pa.isalpha()[C[C[C[C[C[1P = "sggs"[1P"[1P"[1P"[1P"6"5"
->>> a = "65"[C[C[C[Chelp(a.isascii)lpha)[C[C[C[C[4Pa.isalpha()[1P()[1P()[1P()[1P()[1P()a()s()c()i()i()
-True
->>> a.isascii()[C[C[C[C[C[3P = "65"[C[1P"[1P"a"
->>> a = "a".isascii()
-True
->>> a.isascii()[C[C[C[C[C[4P = "a"[1P"_"
->>> a = "_".isascii()[C[C[C[C[C[4P = "a".isascii()
-True
->>> a.isascii()[C[C[C[C[C[4P = "_"[1P"\"n"
->>> a = "\n"[C[C[C[C[C.isascii()
-True
->>> a.isascii()[C[C[C[C[C[3P = "\n"[C[C[C[C[C.isascii()[C[C[C[C[C[4P = "_".isascii()[C[C[C[C[C[4P = "a".isascii()[C[C[C[C[C[3P = "65"[C[C[C[Chelp(a.isascii)
-[?1049h[22;0;0t[?1h=Help on built-in function isascii:
-
-[1misascii[0m() method of builtins.str instance
-    Return True if all characters in the string are ASCII, False otherwise.
-    
-    ASCII characters have code points in the range U+0000-U+007F.
-    Empty string is ASCII too.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(a.isascii)[C[C[C[C[4Pa.isascii()[C[C[C[C[C[3P = "\n"[1P"[1P"
->>> a = ""[C[C[C[Chelp(a.isascii)[C[C[C[C[4Pa.isascii()
-True
->>> a.isascii()[C[C[C[C[C[5P = ""[C[C[C[Chelp(a.isascii)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P).)i)s)d)e)c)i)m)a)l)
-[?1049h[22;0;0t[?1h=Help on built-in function isdecimal:
-
-[1misdecimal[0m() method of builtins.str instance
-    Return True if the string is a decimal string, False otherwise.
-    
-    A string is a decimal string if all characters in the string are decimal and
-    there is at least one character in the string.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a
-''
->>> a.isdecimal()
-False
->>> a.isdecimal()[C[C[C[C[C[Khelp(a.isdecimal)[C[C[C[C[6Pa.isascii()[C[C[C[C[C[5P = ""1"2"3"A"
->>> a = "123A"[C[C[C[C[C.isdecimal()
-False
->>> a.isdecimal()[C[C[C[C[C[3P = "123A"[1P"
->>> a = "123"[C[C[C[C[C.isdecimal()
-True
->>> a.isdecimal()[C[C[C[C[C[4P = "123"[C[C[C[C[C.isdecimal()[C[C[C[C[C[3P = "123A"[C[C[C[C[C.isdecimal()[C[C[C[C[C[Khelp(a.isdecimal)[1P)\)\)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)d)i)g)i)t)
-[?1049h[22;0;0t[?1h=Help on built-in function isdigit:
-
-[1misdigit[0m() method of builtins.str instance
-    Return True if the string is a digit string, False otherwise.
-    
-    A string is a digit string if all characters in the string are digits and there
-    is at least one character in the string.
-[7m(END)[27m[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a.isidentifier()
-False
->>> a.isidentifier()'.isidentifier()[C[C[C[C[C[C'a'.isidentifier()[C[C[C[C[C
-True
->>> 'a'.isidentifier()[C[C[C[C[2Pa.isidentifier()[C[C[C[C[1Phelp(a.isdigit)[C[1P)[1P)[1P)[1P)[1P)i)d)e)n)t)i)f)i)e)r)
-[?1049h[22;0;0t[?1h=Help on built-in function isidentifier:
-
-[1misidentifier[0m() method of builtins.str instance
-    Return True if the string is a valid Python identifier, False otherwise.
-    
-    Call keyword.iskeyword(s) to test whether string s is a reserved identifier,
-    such as "def" or "class".
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(a.isidentifier)\)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)l)o)w)e)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-AttributeError: 'str' object has no attribute 'islowe'. Did you mean: 'islower'?
->>> help(a.islowe)r)[1P)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-AttributeError: 'str' object has no attribute 'islowe'. Did you mean: 'islower'?
->>> help(a.islowe)r)
-[?1049h[22;0;0t[?1h=Help on built-in function islower:
-
-[1mislower[0m() method of builtins.str instance
-    Return True if the string is a lowercase string, False otherwise.
-    
-    A string is lowercase if all cased characters in the string are lowercase and
-    there is at least one cased character in the string.
-[7m(END)[27m[K[K [KESCESC[KOO[KAA[K...skipping...
-Help on built-in function islower:
-
-[1mislower[0m() method of builtins.str instance
-    Return True if the string is a lowercase string, False otherwise.
-    
-    A string is lowercase if all cased characters in the string are lowercase and
-    there is at least one cased character in the string.
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a = ''A'b'j'a'n'g'[1P'[1P'[1P'[1P'h'a'n'g'
->>> a.s[Kislower()
-False
->>> a.islower()[1P)[1P)[1P)[1P)[1P)[1P)u)p)p)e)r)()
-False
->>> a.isupper()lower()upper()[K[K[K[K[K[K[K[K[K[K[Ktup = ()1)0),)2)0),)3)0)
->>> typer[K()t)y)u)[1P)[1P)u)p)
-<class 'tuple'>
->>> ehl[K[K[Khelp()t)u)p)
-[?1049h[22;0;0t[?1h=Help on tuple object:
-
-class [1mtuple[0m(object)
- |  tuple(iterable=(), /)
- |  
- |  Built-in immutable sequence.
- |  
- |  If no argument is given, the constructor returns an empty tuple.
- |  If iterable is specified the tuple is initialized from iterable's items.
- |  
- |  If the argument is a tuple, the return value is the same object.
- |  
- |  Built-in subclasses:
- |      asyncgen_hooks
- |      UnraisableHookArgs
- |  
- |  Methods defined here:
- |  
- |  [1m__add__[0m(self, value, /)
- |      Return self+value.
- |  
- |  [1m__contains__[0m(self, key, /)
- |      Return key in self.
- |  
- |  [1m__eq__[0m(self, value, /)
- |      Return self==value.
- |  
- |  [1m__ge__[0m(self, value, /)
-:[K[K:[K[K[?1l>[?1049l[23;0;0t
->>> help(tup)[1P(tup)[1P(tup)[1P(tup)[1P(tup)d(tup)i(tup)r(tup)
-['__add__', '__class__', '__class_getitem__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'count', 'index']
->>> hl[Kelp()t)u)p).)c)o)u)n)t)
-[?1049h[22;0;0t[?1h=Help on built-in function count:
-
-[1mcount[0m(value, /) method of builtins.tuple instance
-    Return number of occurrences of value.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(tup.count)[C[C[C[C[7Pdir(tup)[C[C[C[Chelp(tup)[C[C[C[Ctype(tup)[C[C[C[C[Cup = (10,20,30),)[C[C[C[C[C[8Pype(tup)[C[C[C[C[Cup = (10,20,30,)2)0),)1)0)
->>> tup.count()3)0)
-1
->>> tup.count(30)[1P)[1P)2)0)
-2
->>> tup.count(20)[1P)
-0
->>> tup.count(2)')'2')
-0
->>> tup.count('2')[2P2)0)30)[C[C[C[C[C[C[C = (10,20,30,20,10)[C[C[C[C[7Phelp(tup.count)[K[K[K[K[K[Kindex)
-[?1049h[22;0;0t[?1h=Help on built-in function index:
-
-[1mindex[0m(value, start=0, stop=9223372036854775807, /) method of builtins.tuple instance
-    Return first index of value.
-    
-    Raises ValueError if the value is not present.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(tup.index)[C[C[C[C[1Ptup.count('2')[C[C[C[Chelp(tup.index)[C[C[C[C[1Ptup.count('2')[1P('2')[1P('2')[1P('2')[1P('2')[1P('2')[1P('2').('2')i('2')n('2')d('2')e('2')x('2')
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ValueError: tuple.index(x): x not in tuple
->>> tup.index('2')[1P)[1P)[1P)2)0)
-1
->>> a = 10
->>> dir()a)
-['__abs__', '__add__', '__and__', '__bool__', '__ceil__', '__class__', '__delattr__', '__dir__', '__divmod__', '__doc__', '__eq__', '__float__', '__floor__', '__floordiv__', '__format__', '__ge__', '__getattribute__', '__getnewargs__', '__gt__', '__hash__', '__index__', '__init__', '__init_subclass__', '__int__', '__invert__', '__le__', '__lshift__', '__lt__', '__mod__', '__mul__', '__ne__', '__neg__', '__new__', '__or__', '__pos__', '__pow__', '__radd__', '__rand__', '__rdivmod__', '__reduce__', '__reduce_ex__', '__repr__', '__rfloordiv__', '__rlshift__', '__rmod__', '__rmul__', '__ror__', '__round__', '__rpow__', '__rrshift__', '__rshift__', '__rsub__', '__rtruediv__', '__rxor__', '__setattr__', '__sizeof__', '__str__', '__sub__', '__subclasshook__', '__truediv__', '__trunc__', '__xor__', 'as_integer_ratio', 'bit_count', 'bit_length', 'conjugate', 'denominator', 'from_bytes', 'imag', 'numerator', 'real', 'to_bytes']
->>> dir(a)[C[C[C[Ca = 10[K[K[]0]
->>> a = [0][C[C[C[C[1Pdir(a)
-['__add__', '__class__', '__class_getitem__', '__contains__', '__delattr__', '__delitem__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__gt__', '__hash__', '__iadd__', '__imul__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__reversed__', '__rmul__', '__setattr__', '__setitem__', '__sizeof__', '__str__', '__subclasshook__', 'append', 'clear', 'copy', 'count', 'extend', 'index', 'insert', 'pop', 'remove', 'reverse', 'sort']
->>> dir(a)[C[C[C[Ca = [0][C[C[C[C[1Pdir(a)[C[C[C[Ca = 10[C[C[C[Ctup.index(20)'2')[C[C[C[Chelp(tup.index)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)()a).)a)p)p)e)n)d)
-[?1049h[22;0;0t[?1h=Help on built-in function append:
-
-[1mappend[0m(object, /) method of builtins.list instance
-    Append object to the end of the list.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a.ae[Koo[K[Kpped[Km[Knd()1)0)
->>> a.clear()
->>> a
-[]
->>> a.clear()append(10)[C[C[C[Chelp(a.append)[1P)[1P)[1P)[1P)[1P)[1P)c)l)e)a)r)
-[?1049h[22;0;0t[?1h=Help on built-in function clear:
-
-[1mclear[0m() method of builtins.list instance
-    Remove all items from list.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a = []1],]2],]3],]
->>> a
-[1, 2, 3]
->>> a.copy()
-[1, 2, 3]
->>> a.copy()[C[C[C[C[C[K = [1,2,3,][C[C[C[Chelp(a.clear)[1P)[1P)[1P)[1P)o)p)y)
-[?1049h[22;0;0t[?1h=Help on built-in function copy:
-
-[1mcopy[0m() method of builtins.list instance
-    Return a shallow copy of the list.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a.pop()
-3
->>> a.pop()[C[C[C[Chelp(a.copy)[1P)[1P)[1P)[1P)p)o)p)
-[?1049h[22;0;0t[?1h=Help on built-in function pop:
-
-[1mpop[0m(index=-1, /) method of builtins.list instance
-    Remove and return item at index (default last).
-    
-    Raises IndexError if list is empty or index is out of range.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(a.pop)[1P)[1P)[1P)c)o)u)n)t)
-[?1049h[22;0;0t[?1h=Help on built-in function count:
-
-[1mcount[0m(value, /) method of builtins.list instance
-    Return number of occurrences of value.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(a.count)[2Ppop)[K[K[K[K[K[K[K[K[K[K[Ka
-[1, 2]
->>> ahelp(a.count)[C[C[C[Ca[K[C.count()2)
-1
->>> a.count(2)[1P)5)
-0
->>> a.count(5)2)[C[C[C[C[C[Khelp(a.count)[1P)[1P)[1P)[1P)[1P)e)n)[1P)x)t)e)n)d)
-[?1049h[22;0;0t[?1h=Help on built-in function extend:
-
-[1mextend[0m(iterable, /) method of builtins.list instance
-    Extend list by appending elements from the iterable.
-[7m(END)[27m[K[K [KESCESC[KOO[KAA[K...skipping...
-Help on built-in function extend:
-
-[1mextend[0m(iterable, /) method of builtins.list instance
-    Extend list by appending elements from the iterable.
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[1m~[0m
-[7m(END)[27m[K[K [KESCESC[KOO[KBB[K[K[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> 
->>> help(a.extend)[C[C[C[C[4Pa.count(5)[C[C[C[Chelp(a.extend)[C[C[C[C[4Pa.count(5)[1P(5)[1P(5)[1P(5)[1P(5)[1P(5)e(5)x(5)t(5)e(5)n(5)d(5)[C[C[1P)()[C)a))[1P))'))'))a'))[C,))'))'))b'))
->>> a
-[1, 2, 'a', 'b']
->>> a.extend(('a','b'))[K[1P'a','b')
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: list.extend() takes exactly one argument (2 given)
->>> a.extend('a','b')[C[C[C[C[C[K.extend(('a','b'))[C[C[C[C[5Phelp(a.extend)[C[C[C[C[4Pa.count(5)[C[C[C[Chelp(a.extend)[C[1P)[1P)[1P)[1P)[1P)[1P)i)n)x)[1P)d)e)x)
-[?1049h[22;0;0t[?1h=Help on built-in function index:
-
-[1mindex[0m(value, start=0, stop=9223372036854775807, /) method of builtins.list instance
-    Return first index of value.
-    
-    Raises ValueError if the value is not present.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(a.index)[C[C[C[Ca.extend('a','b')[C[C[C[C[4Phelp(a.index)[C[C[C[Ca.extend('a','b')[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kindex()')')a')
-2
->>> a.index('a')[1P)[1P)[1P)a)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ValueError: [1, 2, 'a', 'b'] is not in list
->>> a.index(a)'a')[C[C[C[Chelp(a.index)[1P)[1P)[1P)s)r)[1P)e)r)t)
-[?1049h[22;0;0t[?1h=Help on built-in function insert:
-
-[1minsert[0m(index, object, /) method of builtins.list instance
-    Insert object before index.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a
-[1, 2, 'a', 'b']
->>> a.insert()1)0),) )5)
->>> a
-[1, 2, 'a', 'b', 5]
->>> a[C.insert(10, 5)[1P[1@0
->>> a
-[1, 2, 'a', 'b', 5, 5]
->>> a.insert(10, 5)[1P)6)
->>> a.insert(10, 6)a[K[Ka[K[C[C[C[C[C[K
-[1, 2, 'a', 'b', 5, 5, 6]
->>> b.insert()0),)1)0)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-AttributeError: 'str' object has no attribute 'insert'
->>> b.insert(0,10)[1P.insert(0,10)[C[C[C[Cd.insert(0,10)[C[C[C[C[C
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-NameError: name 'd' is not defined. Did you mean: 'id'?
->>> d.insert(0,10)d[C[C[C[C[1Pb.insert(0,10)[C[C[C[Ca[K.insert(10, 6[C[C[C[C[C[K.insert(10, 5)[C[C[C[C[C[K.insert(10, 5)[C[C[C[C[C[Khelp(a.insert)\)\)\)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)p)o)p)
-[?1049h[22;0;0t[?1h=Help on built-in function pop:
-
-[1mpop[0m(index=-1, /) method of builtins.list instance
-    Remove and return item at index (default last).
-    
-    Raises IndexError if list is empty or index is out of range.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(a.pop)[C[C[C[Cd.insert(0,10)d[C[C[C[C[4Phelp(a.pop)[1P)[1P)[1P)r)e)m)o)v)e)
-[?1049h[22;0;0t[?1h=Help on built-in function remove:
-
-[1mremove[0m(value, /) method of builtins.list instance
-    Remove first occurrence of value.
-    
-    Raises ValueError if the value is not present.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a.remove()3)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ValueError: list.remove(x): x not in list
->>> a
-[1, 2, 'a', 'b', 5, 5, 6]
->>> a.remove(3)[1P)5)
->>> a.remove(5)[C[C[C[C[Ka
-[1, 2, 'a', 'b', 5, 6]
->>> a.remove(5)[C[C[C[C[C[K.remove(3)[C[C[C[Chelp(a.remove)[1P)[1P)[1P)[1P)v)e)r)s)e)
-[?1049h[22;0;0t[?1h=Help on built-in function reverse:
-
-[1mreverse[0m() method of builtins.list instance
-    Reverse *IN PLACE*.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(a.reverse)[C[1P)[1P)[1P)[1P)[1P)[1P)[1P)s)o)r)t)
-[?1049h[22;0;0t[?1h=Help on built-in function sort:
-
-[1msort[0m(*, key=None, reverse=False) method of builtins.list instance
-    Sort the list in ascending order and return None.
-    
-    The sort is in-place (i.e. the list itself is modified) and stable (i.e. the
-    order of two equal elements is maintained).
-    
-    If a key function is given, apply it once to each list item and sort them,
-    ascending or descending, according to their function values.
-    
-    The reverse flag can be set to sort in descending order.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a.sort[K[K[Kr[K[Kreverse()
->>> a
-[6, 5, 'b', 'a', 2, 1]
->>> a.reverse()[C[C[C[Chelp(a.sort)
-[?1049h[22;0;0t[?1h=Help on built-in function sort:
-
-[1msort[0m(*, key=None, reverse=False) method of builtins.list instance
-    Sort the list in ascending order and return None.
-    
-    The sort is in-place (i.e. the list itself is modified) and stable (i.e. the
-    order of two equal elements is maintained).
-    
-    If a key function is given, apply it once to each list item and sort them,
-    ascending or descending, according to their function values.
-    
-    The reverse flag can be set to sort in descending order.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a = [1,2,351,2,3,1,2,361,2,3,1,2,3[C[C[C[C[C,'a'
-... ]
->>> a.sort()
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: '<' not supported between instances of 'str' and 'int'
->>> a
-[1, 2, 3, 5, 6, 'a']
->>> a.pop()
-'a'
->>> a
-[1, 2, 3, 5, 6]
->>> a.pop()[K.sort()
->>> a.sort()r)e)v)e)r)s)e)=)T)r)u)e)
->>> a
-[6, 5, 3, 2, 1]
->>> a.sort(reverse=True)kreverse=True)ereverse=True)yreverse=True) reverse=True)=reverse=True) reverse=True),reverse=True)*,reverse=True)=,reverse=True)[1P,reverse=True)[1P,reverse=True)-,reverse=True)1,reverse=True)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: 'int' object is not callable
->>> a
-[6, 5, 3, 2, 1]
->>> exit()
-[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ ext[Kit
-[?2004lexit
-
-Script done on 2024-07-29 02:32:33+05:30 [COMMAND_EXIT_CODE="0"]
-Script started on 2024-07-31 18:41:05+05:30 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="173" LINES="29"]
-[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ abhan[Ka[Kng
-[?2004lPython 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> dir[K[K[Ka = ""s"[1P"s"g"g"[1P"[1P"[1P"S"g"g"s"1"2"3"
->>> dir()a)
-['__add__', '__class__', '__contains__', '__delattr__', '__dir__', '__doc__', '__eq__', '__format__', '__ge__', '__getattribute__', '__getitem__', '__getnewargs__', '__gt__', '__hash__', '__init__', '__init_subclass__', '__iter__', '__le__', '__len__', '__lt__', '__mod__', '__mul__', '__ne__', '__new__', '__reduce__', '__reduce_ex__', '__repr__', '__rmod__', '__rmul__', '__setattr__', '__sizeof__', '__str__', '__subclasshook__', 'capitalize', 'casefold', 'center', 'count', 'encode', 'endswith', 'expandtabs', 'find', 'format', 'format_map', 'index', 'isalnum', 'isalpha', 'isascii', 'isdecimal', 'isdigit', 'isidentifier', 'islower', 'isnumeric', 'isprintable', 'isspace', 'istitle', 'isupper', 'join', 'ljust', 'lower', 'lstrip', 'maketrans', 'partition', 'removeprefix', 'removesuffix', 'replace', 'rfind', 'rindex', 'rjust', 'rpartition', 'rsplit', 'rstrip', 'split', 'splitlines', 'startswith', 'strip', 'swapcase', 'title', 'translate', 'upper', 'zfill']
->>> help()a).)j)o)i)n)
-[?1049h[22;0;0t[?1h=Help on built-in function join:
-
-[1mjoin[0m(iterable, /) method of builtins.str instance
-    Concatenate any number of strings.
-    
-    The string whose method is called is inserted in between each given string.
-    The result is returned as a new string.
-    
-    Example: '.'.join(['ab', 'pq', 'rs']) -> 'ab.pq.rs'
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a,[K.join()()[K[K()[C)"))'"))1"))'")),"))[C"))2"))[C,))"))"))5"))
-'1Sggs1232Sggs1235'
->>> a.join(('1',"2","5"))[C[C[C[C[9Phelp(a.join)[1P)[1P)[1P)[1P)l)j)u)s)t)
-[?1049h[22;0;0t[?1h=Help on built-in function ljust:
-
-[1mljust[0m(width, fillchar=' ', /) method of builtins.str instance
-    Return a left-justified string of length width.
-    
-    Padding is done using the specified fill character (default is a space).
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a.ljust()2)
-'Sggs123'
->>> a.ljust(2)[1P)9)
-'Sggs123  '
->>> a.ljust(9)2)9),)')')/')
-'Sggs123//'
->>> a.ljust(9,'/'))[K2),)')')/')
-'Sggs123'
->>> a.ljust(2,'/')[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)ljust(9,'/'))[K2)[C[C[C[Chelp(a.ljust)[1P)[1P)[1P)[1P)o)w)e)r)
-[?1049h[22;0;0t[?1h=Help on built-in function lower:
-
-[1mlower[0m() method of builtins.str instance
-    Return a copy of the string converted to lowercase.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(a.lower)[C[C[C[Ca.)[K[Klower()
-'sggs123'
->>> a.lower()[C[C[C[Chelp(a.lower)[1P)[1P)[1P)[1P)s)r)[1P)t)r)i)p)
-[?1049h[22;0;0t[?1h=Help on built-in function lstrip:
-
-[1mlstrip[0m(chars=None, /) method of builtins.str instance
-    Return a copy of the string with leading whitespace removed.
-    
-    If chars is given and not None, remove characters in chars instead.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a = [K "" " " " " " " "S"g"g"s"
->>> a.lstring[K[Kp()
-'Sggs'
->>> a.lstrip()')')S')
-'       Sggs'
->>> a.lstrip('S'))[K[C[C[C[C[C = "       Sggs"sSggs"[1PSggs"[1PSggs"[1PSggs"[1PSggs"[1PSggs"[1PSggs"[1PSggs"[1PSggs"[1PSggs""Sggs"sSggs"sSggs"sSggs"sSggs"sSggs"sSggs"sSggs"sSggs"sSggs"sSggs"sSggs"
->>> a = "sssssssssssSggs"[C[C[C[C[C[8P.lstrip('S')
-'sssssssssssSggs'
->>> a.lstrip('S')[1P')s')
-'Sggs'
->>> a.lstrip('s')[1Pstrip('s')[C[C[C[C[C[Crstrip('s')[C[C[C[C[C[C[C
-'sssssssssssSgg'
->>> a.rstrip('s')[C[C[C[C[C[Clstrip('s')S')[C[C[C[C[C = "sssssssssssSggs"[C[C[C[C[C[8P.lstrip('S'))[K[C[C[C[C[C = "       Sggs"[C[C[C[C[3Phelp(a.lstrip)[1P)[1P)[1P)[1P)[1P)[1P)m)a)k)e)t)r)a)m)s)[1P)[1P)n)s)
-[?1049h[22;0;0t[?1h=Help on built-in function maketrans:
-
-[1mmaketrans[0m(...)
-    Return a translation table usable for str.translate().
-    
-    If there is only one argument, it must be a dictionary mapping Unicode
-    ordinals (integers) or characters to Unicode ordinals, strings or None.
-    Character keys will be then converted to ordinals.
-    If there are two arguments, they must be strings of equal length, and
-    in the resulting dictionary, each character in x will be mapped to the
-    character at the same position in y. If there is a third argument, it
-    must be a string, whose characters will be mapped to None in the result.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a.trans[K[K[K[K[Kmaketrans()
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: maketrans expected at least 1 argument, got 0
->>> a.maketrans()1)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: if you give only one argument to maketrans it must be a dict
->>> a.maketrans(1)[1P)')')s')
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: if you give only one argument to maketrans it must be a dict
->>> a.maketrans('s'),)')')a')
-{115: 97}
->>> a.maketrans('s','a')[1P','a')b','a')
-{98: 97}
->>> a
-'sssssssssssSggs'
->>> a.maketrans('b','a')s','a'))[K,'a')b','a')[C[C[C[C[C[K.maketrans('b','a')s','a'))[K[2P1)[1P)[C[C[C[Chelp(a.maketrans)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)p)a)r)t)i)t)i)o)n)s)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-AttributeError: 'str' object has no attribute 'partitions'. Did you mean: 'partition'?
->>> help(a.partitions)[1P)
-[?1049h[22;0;0t[?1h=Help on built-in function partition:
-
-[1mpartition[0m(sep, /) method of builtins.str instance
-    Partition the string into three parts using the given separator.
-    
-    This will search for the separator in the string.  If the separator is found,
-    returns a 3-tuple containing the part before the separator, the separator
-    itself, and the part after it.
-    
-    If the separator is not found, returns a 3-tuple containing the original string
-    and two empty strings.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a
-'sssssssssssSggs'
->>> a.patr[K[Krtiit[K[Ktioj[Kn()')')s')s')[1P')[1P')g')g')
-('sssssssssssS', 'gg', 's')
->>> a.partition('gg')[C[1P)[1P)[1P)[1P)
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-TypeError: str.partition() takes exactly one argument (0 given)
->>> a.partition()')')a')
-('sssssssssssSggs', '', '')
->>> a.partition('a'))[K'gg')[C[C[C[C[C[Khelp(a.partition)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)r)e)m)o)v)e)p)r)f)i)x)[1P)[1P)[1P)e)f)i)x)
-[?1049h[22;0;0t[?1h=Help on built-in function removeprefix:
-
-[1mremoveprefix[0m(prefix, /) method of builtins.str instance
-    Return a str with the given prefix string removed if present.
-    
-    If the string starts with the prefix string, return string[len(prefix):].
-    Otherwise, return a copy of the original string.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a = ""A"b"h"a"n"g"
->>> a.remi[Koveo[Kre[K[Kprefix[Kx()')')a')b')
-'Abhang'
->>> a.removeprefix('ab')[1Pb')Ab')
-'hang'
->>> a.removesuffe[Kix)[K()')')b')[1P')n')g')
-'Abha'
->>> a.removesuffix('ng')[C[1P')g')
-'Abha'
->>> a.removesuffix('ng')[1P')G')
-'Abhang'
->>> a.removesuffix('nG')g')prefix('Ab')ab')[C[C[C[C[C[8P = "Abhang"[C[C[C[Chelp(a.removeprefix)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)p)l)a)c)e)
-[?1049h[22;0;0t[?1h=Help on built-in function replace:
-
-[1mreplace[0m(old, new, count=-1, /) method of builtins.str instance
-    Return a copy with all occurrences of substring old replaced by new.
-    
-      count
-        Maximum number of occurrences to replace.
-        -1 (the default value) means replace all occurrences.
-    
-    If the optional argument count is given, only the first count occurrences are
-    replaced.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a.replace)[K[K[K[K[K[K[K[K[K
-'Abhang'
->>> a = ""S"g"g"s"
->>> a.replace)[K()')g)'),) )')')G')[C,) )0)
-'Sggs'
->>> a.replace('g', 'G', 0)[1P)[1P)[1P)
-'SGGs'
->>> a.replace('g', 'G'),) )1)
-'SGgs'
->>> a.replace('g', 'G', 1)[1P)5)
-'SGGs'
->>> a.replace('g', 'G', 5)1))[K, 0)[C[C[C[C[C[12P = "Sggs"[C[C[C[C[C[Khelp(a.replace)\)\)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)[1P)r)f)i)n)d)
-[?1049h[22;0;0t[?1h=Help on built-in function rfind:
-
-[1mrfind[0m(...) method of builtins.str instance
-    S.rfind(sub[, start[, end]]) -> int
-    
-    Return the highest index in S where substring sub is found,
-    such that sub is contained within S[start:end].  Optional
-    arguments start and end are interpreted as in slice notation.
-    
-    Return -1 on failure.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a = ""A"b"h"a"n"g" "P"a"t"u"r"k"a"r"
->>> a,[K.rfind()')')a')
-13
->>> a.rfind('a'),)0),)6)
-3
->>> a.rfind('a',0,6)-0,6)[C[1P,6)1,6)
--1
->>> a.rfind('a',-1,6)[1P0,6)[1P)1)0)
-8
->>> a.rfind('a',0,10)-1,6)[1P0,6))[K[C[C[C[C[C = "Abhang Paturkar"[C[C[C[C[8Phelp(a.rfind)[1P)[1P)[1P)[1P)i)n)d)e)x)
-[?1049h[22;0;0t[?1h=Help on built-in function rindex:
-
-[1mrindex[0m(...) method of builtins.str instance
-    S.rindex(sub[, start[, end]]) -> int
-    
-    Return the highest index in S where substring sub is found,
-    such that sub is contained within S[start:end].  Optional
-    arguments start and end are interpreted as in slice notation.
-    
-    Raises ValueError when the substring is not found.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a
-'Abhang Paturkar'
->>> a.i[Krindex()')')a)[1P)a')
-13
->>> a.rindex('a'),) )0),) )6)
-3
->>> a.rindex('a', 0, 6)[C[C[C[1P[1@r
-Traceback (most recent call last):
-  File "<stdin>", line 1, in <module>
-ValueError: substring not found
->>> a.rindex('r', 0, 6)[1P)[1P)[1P)[1P)[1P)[1P)
-14
->>> a.rindex('r'), 0, 6)a[C[C[C[C[C[C[C[C)[K[C[C[C[C[C[Khelp(a.rindex)[1P)[1P)[1P)[1P)[1P)j)u)s)t)
-[?1049h[22;0;0t[?1h=Help on built-in function rjust:
-
-[1mrjust[0m(width, fillchar=' ', /) method of builtins.str instance
-    Return a right-justified string of length width.
-    
-    Padding is done using the specified fill character (default is a space).
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a
-'Abhang Paturkar'
->>> a.rjust()5)0)[1P)[1P)2)0)
-'     Abhang Paturkar'
->>> a.rjust(20),) )')')_')
-'_____Abhang Paturkar'
->>> a.rjust(20, '_'))[K[C[C[C[C[C[Khelp(a.rjust)[1P)[1P)[1P)[1P)p)a)r)t)i)t)i)o)m)[1P)n)
-[?1049h[22;0;0t[?1h=Help on built-in function rpartition:
-
-[1mrpartition[0m(sep, /) method of builtins.str instance
-    Partition the string into three parts using the given separator.
-    
-    This will search for the separator in the string, starting at the end. If
-    the separator is found, returns a 3-tuple containing the part before the
-    separator, the separator itself, and the part after it.
-    
-    If the separator is not found, returns a 3-tuple containing two empty strings
-    and the original string.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> help(a.rpartition)[C[C[C[C[2Pa.rjust(20, '_')[C[C[C[Chelp(a.rpartition)[C[C[C[C[Ka.par[K[Kr[K[Krpartt[Kitiom[Kn()')')k')
-('Abhang Patur', 'k', 'ar')
->>> a.rpartition('k')[1P')r')
-('Abhang Paturka', 'r', '')
->>> a.rpartition('r')k')[C[C[C[Chelp(a.rpartition)[K[K[K[K[K[K[K[K[K[Ksplit)
-[?1049h[22;0;0t[?1h=Help on built-in function rsplit:
-
-[1mrsplit[0m(sep=None, maxsplit=-1) method of builtins.str instance
-    Return a list of the substrings in the string, using sep as the separator string.
-    
-      sep
-        The separator used to split the string.
-    
-        When set to None (the default value), will split on any whitespace
-        character (including \\n \\r \\t \\f and spaces) and will discard
-        empty strings from the result.
-      maxsplit
-        Maximum number of splits (starting from the left).
-        -1 (the default value) means no limit.
-    
-    Splitting starts at the end of the string and works to the front.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> a = ""I" "a"m" "a"m"b"[1P"[1P"[1P"i"t" "s"t"i"[1P"u"d" "[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P"[1P" "i"[1P"I"T" "S"t"u"d"
->>> a.rsl[Kplit()')')_')[1P') ')[C,) )2)
-['I am', 'IT', 'Stud']
->>> a.rsplit(' ', 2)[1P
-['I', 'am', 'IT Stud']
->>> a.split(' ', 2)[C[1P)1)
-['I', 'am IT Stud']
->>> a.split(' ', 1)2)[C[C[C[C[C[C[1@r[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C = "I am IT Stud"[C[C[C[C[4Phelp(a.rsplit)[1P)[1P)[1P)[1P)t)r)i)p)
-[?1049h[22;0;0t[?1h=Help on built-in function rstrip:
-
-[1mrstrip[0m(chars=None, /) method of builtins.str instance
-    Return a copy of the string with trailing whitespace removed.
-    
-    If chars is given and not None, remove characters in chars instead.
-[7m(END)[27m[K[K[?1l>[?1049l[23;0;0t
->>> q[Kexit()
-[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ ei[K[Kexit
-[?2004lexit
-
-Script done on 2024-07-31 19:42:27+05:30 [COMMAND_EXIT_CODE="0"]
-Script started on 2024-07-31 21:29:26+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="173" LINES="29"]
-[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ abhng[K[Kang
-[?2004lPython 3.10.12 (main, Nov 20 2023, 15:14:05) [GCC 11.4.0] on linux
-Type "help", "copyright", "credits" or "license" for more information.
->>> exit
-Use exit() or Ctrl-D (i.e. EOF) to exit
->>> (
-... 
-KeyboardInterrupt
->>> exit()
-[?2004h]0;abhang0709@abhang0709-HP: /media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[01;32mabhang0709@abhang0709-HP[00m:[01;34m/media/abhang0709/Ubuntu Volume/SGGS/Python_Programs/practical[00m$ exit
-[?2004lexit
-
-Script done on 2024-07-31 21:29:49+05:30 [COMMAND_EXIT_CODE="0"]
