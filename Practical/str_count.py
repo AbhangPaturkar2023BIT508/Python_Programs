@@ -21,6 +21,6 @@ def string_count(main_string, sub_string, allow_overlap = False):
 #end of string_count funtion
 
 #__main__
-a = 'ababcabcab'
-b = 'abc'
+a = 'aaaaaa'
+b = 'aa'
 print(string_count(a,b,False))
