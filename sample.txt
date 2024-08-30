@@ -1,0 +1,40 @@
+1. def slice(object, slicing para[list])
+dfa which accepts string ends with 'b' symbol =  {a,b}
+def rom(text, base)
+def base(text, text_base, output_base)
+base 2 - 36
+
+
+
+
+Slice Operator user defined
+
+implement DFA which acess all the string over {a,b} sych that each String ends with 'b'
+
+
+String i/p ---------------> o/p  {1.0  Accepted 2.0 Rejected}
+
+
+{b,ab,bb,ababab,aaab,}
+
+a	  b
+A---b--->[B]
+  <-a--
+
+"aab" ----> return Accepted
+"aacbbb" -> Return Rejected
+
+---------------------------------------------------------------------
+
+
+You need to provide functionality for roman number 
+	-- it takes input as text and text base
+	-- roman(text,textbase)
+
+
+----------------------------------------------------------------------
+
+base(text,text_base, Output_Base)
+	--base("11",2,2) ---=> "11"
+	--base("100",2,10) --> 4
+	--base("

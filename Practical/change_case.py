@@ -44,7 +44,7 @@ def convert_to_zigzag_case(text):
 			zigzag_text += convert_to_capital_case(letter)
 			flag = not flag
 		elif not flag:
-			zigzag_text += convert_to_small_case(letter)
+			zigzag_text += convert_to_small_case(letter) 
 			flag = not flag
 		else:
 			zigzag_text += letter
@@ -79,4 +79,5 @@ print(change_case('SggSieT_','r'))
 print(change_case('Sgg_s_','Z'))
 print(change_case('sgg_s_','z'))
 print(change_case('',''))
+slice()
 # end of __main__

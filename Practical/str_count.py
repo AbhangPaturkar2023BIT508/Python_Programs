@@ -17,7 +17,6 @@ def string_count(main_string, sub_string, allow_overlap = False):
             start += len(sub_string)
         
     return count
-
 #end of string_count funtion
 
 #__main__
