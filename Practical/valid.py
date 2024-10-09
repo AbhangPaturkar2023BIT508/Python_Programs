@@ -41,5 +41,5 @@ def get_valid_invalid_text_count(txt_list : list) -> tuple:
 # print(check_validity('({['))
 
 
-a = ['[{(', [45,("()"),]]
+a = ['[{()}]', [45,("()"),]]
 print(get_valid_invalid_text_count(a))

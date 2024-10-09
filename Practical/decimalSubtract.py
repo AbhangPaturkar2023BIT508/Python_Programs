@@ -7,7 +7,10 @@ def decimal(num):
 # end of decimal
 
 
-def decimal_subtract(num1, num2):
+def decimal_subtract(num1:str, num2:str):
+	if all([num1.isdigit(), num2.isdigit()]):
+		raise ValueError(f"invalid literal with base : '10'")
+
 	max_len = max(len(num1), len(num2))
 	num1 = num1.zfill(max_len)
 	num2 = num2.zfill(max_len)
